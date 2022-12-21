@@ -1,6 +1,6 @@
 package com.devsuperior.dscatalog.services.exceptions;
 
-public class EntityNotFoundException extends RuntimeException {
+public class ResourceNotFoundException extends RuntimeException {
 
 	/**
 	 * 
@@ -9,7 +9,7 @@ public class EntityNotFoundException extends RuntimeException {
 	
 	
 	//construtor que repassa msg para classe pai
-	public EntityNotFoundException(String msg) {
+	public ResourceNotFoundException(String msg) {
 		super(msg);
 	}
 	
